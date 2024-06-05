@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className='text-dark'>Notes</h1>
-        <button></button>
+       <button className='add-button'><i className='mdi mdi-plus-thick fs-5'></i></button>
       </header>
     </div>
   );
