@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "@mdi/font/css/materialdesignicons.css";
-import 'bootstrap/dist/css/bootstrap. css';
+import bootstrap from 'bootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
