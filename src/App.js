@@ -47,11 +47,12 @@ console.log(formData)
      </div>
       </div>
      <div className='note-add'>
+      <i className=' icon mdi mdi-circle-outline'></i>
        <h5 className='form-data'>{formData.firstName}</h5>
        <h5 className='form-data'>{formData.lastName}</h5>
        <h5 className='form-data'>{formData.email}</h5>
        <h5 className='form-data'>{formData.comments}</h5>
-
+      <i typeof='button' title='delete this note?' className='icon mdi mdi-close'></i>
      </div>
 <div className='modal'>
 

@@ -12,9 +12,13 @@
   width: 25%;
   border: 1px solid lightgray;
 }
+.icon{
+  padding: 5px;
+}
 .note-add{
   width: 100%;
  display: flex;
+padding: 5px;
 }
 .right-section{
   display: flex;
