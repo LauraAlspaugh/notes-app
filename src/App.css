@@ -1,16 +1,49 @@
 .App {
+  display: flex;
+  padding: 5px;
   text-align: center;
 }
 
-
+.left-section{
+  display: flex;
+  justify-content: left;
+  margin-top: 5px;
+  align-items: center;
+  width: 25%;
+  border: 1px solid lightgray;
+}
+.right-section{
+  width: 75%;
+  border: 1px solid lightgray;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.preview{
+  display: flex;
+  justify-content: left;
+  padding: 5px;  
+}
+.write{
+  padding: 5px;
+  margin: 3px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
 .add-button{
   background-color:plum;
   border-radius: 5px;
   color: white;
-  padding: 4px;
-  margin: 1px;
+  border: none;
+margin: 7px;
+ width: 35px;
+ height: 35px;
+}
 
-
+.note-text{
+  margin-left: 29px;
+}
+i{
+  max-height: 4px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -19,12 +52,7 @@
   }
 }
 
-.App-header {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  color: black;
-}
+
 
 .App-link {
   color: #61dafb;
