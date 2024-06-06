@@ -21,10 +21,14 @@
 input{
   border-radius: 5px;
   margin: 5px;
+  display: flex;
 }
 textarea{
   border-radius: 5px;
   margin: 5px;
+}
+.modal.title{
+  font-size: 20px;
 }
 .modal{
   background-color: lightgray;
