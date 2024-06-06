@@ -4,12 +4,6 @@ import React from 'react';
  import Button from 'react-bootstrap/Button';
  import Modal from 'react-bootstrap/Modal';
 
-
-
-
-
-
-
 function App() {
   const [formData, setFormData] = React.useState(
     {
@@ -38,7 +32,9 @@ console.log(formData)
   const handleShow = () => setShow(true);
   return (
     
-    <div className="App">
+    <div className="">
+      <div className='App'>
+
      <div className='left-section display-flex justify-content-center'>
         <h1 className=' note-text text-dark'>Notes</h1>
        <button  onClick={handleShow} className='add-button' title='add a note'><i className='mdi mdi-plus-thick fs-5'></i></button>
@@ -49,11 +45,19 @@ console.log(formData)
 <h3 className='write'>Preview</h3>
       </div>
      </div>
+      </div>
+     <div className='note-add'>
+       <h5 className='form-data'>{formData.firstName}</h5>
+       <h5 className='form-data'>{formData.lastName}</h5>
+       <h5 className='form-data'>{formData.email}</h5>
+       <h5 className='form-data'>{formData.comments}</h5>
+
+     </div>
 <div className='modal'>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Create A Note.</Modal.Title>
+        <Modal.Header >
+          <Modal.Title  className='top-line'>Create A Note.</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <form>
@@ -84,7 +88,7 @@ console.log(formData)
                 onChange={handleChange}
                 name="comments"
             />
-            <button onSubmit={handleSubmit}>Submit</button>
+            <button className='submit' onSubmit={handleSubmit}>Submit</button>
         </form>
         </Modal.Body>
         <Modal.Footer>

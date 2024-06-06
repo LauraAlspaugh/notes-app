@@ -1,5 +1,5 @@
 .App {
-  display: flex;
+   display: flex; 
   padding: 5px;
   text-align: center;
 }
@@ -12,16 +12,30 @@
   width: 25%;
   border: 1px solid lightgray;
 }
+.note-add{
+  width: 100%;
+ display: flex;
+}
 .right-section{
+  display: flex;
   width: 75%;
   border: 1px solid lightgray;
   margin-left: 5px;
   margin-top: 5px;
 }
+.top-line{
+  margin: 10px;
+  font-size: 20px;
+}
 input{
   border-radius: 5px;
   margin: 5px;
   display: flex;
+}
+.submit{
+  display: flex;
+  margin: 5px;
+  border-radius: 5px;
 }
 textarea{
   border-radius: 5px;
@@ -40,6 +54,9 @@ textarea{
   display: flex;
   justify-content: left;
   padding: 5px;  
+}
+.form-data{
+  margin: 5px;
 }
 .write{
   padding: 5px;
